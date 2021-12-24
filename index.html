@@ -19,18 +19,20 @@
 
 <body>
 
-          <div class= "fundo container-fluid">
+          <div class= "fundo container-fluid ">
               <div class=" container">
                <div class=" container my-5">
                 <header class="header">
                     <H1 id="title" class="text-center text-white d-3">Trabalhe Conosco</H1>
                     <p id="description" class="description text-center text-white">Faça parte do nosso time</p>
               </div>
-         <div class="container meu_form text-white rounded col-6 my-5 ">
-            <form>
+         <div class="container meu_form text-white rounded col-12 my-5 ">
+            <form action="https://formsubmit.co/leandrodevolper@gmail.com" method="POST">            
                 <div class="form-group py-3">
                     <label for="formGroupExampleInput"></label>
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome">
+                    <input type="hidden" name="_next" value="https://leandroferreira991.github.io/TrabalheConosco/sucesso.html" />
+                    <input type="hidden" name="_autoresponse" value="Muito obrigado pelo seu contato, em breve responderemos!" />
                 </div>
                 <div class="form-group py-2">
                     <label for="inputEmail4"></label>
@@ -66,7 +68,7 @@
                     <label for="exampleFormControlFile1"></label>Enviar Curriculo
                     <input type="file" class="form-control-file" id="exampleFormControlFile1">
                 </div>
-                <button type="button" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
          </div>
         </div>
